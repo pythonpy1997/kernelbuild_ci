@@ -22,11 +22,11 @@ env:
 
 jobs:
   kernel-build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
-      - name: Cleanup Space
-        uses: rokibhasansagar/slimhub_actions@main 
+
+
 
       - name: Initializing environment
         run: |
