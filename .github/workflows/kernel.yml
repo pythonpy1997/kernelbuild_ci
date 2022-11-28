@@ -41,5 +41,5 @@ jobs:
         run: |
           git clone $REPO -b $BRANCH kernel 
           cd kernel
-          wget  https://raw.githubusercontent.com/pythonpy1997/kernel_build_scripts/main/Kernel/C3_build_script.sh
-          bash C3_build_script.sh
+          wget  https://raw.githubusercontent.com/pythonpy1997/Scripts/main/Kernel%20Scripts/clang9-kernel-build.sh
+          bash clang9-kernel-build.sh
